@@ -13,8 +13,8 @@ require 'amazon/ecs'
 #  options[:version] => "2013-08-01"
 #  options[:service] => "AWSECommerceService"
 Amazon::Ecs.configure do |options|
-  options[:AWS_access_key_id] = 'AKIAI7BQN2XU7DRSFWOA'
-  options[:AWS_secret_key] = 'LwmVpowUiv97NvAp8Yt7uHKIvvJYOLvldz9A9dRp'
+  options[:AWS_access_key_id] = '[your access key]'
+  options[:AWS_secret_key] = '[you secret key]'
   options[:associate_tag] = '[your associate tag]'
 end
 
